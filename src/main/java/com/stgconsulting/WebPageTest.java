@@ -27,7 +27,6 @@ public class WebPageTest {
     public void startBrowser()
     {
         // Firefoxdriver settings
-        //
         File pathToBinary = new File("C:\\Users\\Richard Harkins\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
         FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
         FirefoxProfile firefoxProfile = new FirefoxProfile();
